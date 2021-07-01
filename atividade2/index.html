@@ -11,37 +11,56 @@
 <body>
     <section>
         <div class="top">
-            <img src="images/code.jpg" alt="Exemplo de código" width="770">
+            <img src="images/code.jpg" alt="Exemplo de código" width="800">
         </div>
     </section> 
 
     <section class="image">
         <div class="image1">
-            <img src="images/c++.jpg" alt="Exemplo de c++" width="300" height="300">
+            <img src="images/c++.jpg" alt="Exemplo de c++" width="260" height="260">
         </div>
         <div class="image2">
-            <img src="images/python.jpg" alt="Exemplo de código python" width="300" height="300">
+            <img src="images/python.jpg" alt="Exemplo de código python" width="260" height="260">
         </div>
         <div class="image3">
-            <img src="images/code2.jpg" alt="Exemplo de código" width="300" height="300">
+            <img src="images/code2.jpg" alt="Exemplo de código" width="272" height="260">
         </div>
     </section>
 
     <section class="contato">
         <div class="form">
-            <h3><strong>Contato</strong></h3>
+            <h3><strong>Entre em contato conosco</strong></h3>
+            <br>
             <form>
-                <label for="nome"><strong>Nome</strong></label>
-                <input type="text" name="nome" id="nome" required>
+                <fieldset>
+                <label class="campo" for="nome"><strong>Nome</strong></label>
+                <input class="nome" type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
                 <br>
-                <label for="email"><strong>Contato</strong></label>
+                <label for="email"><strong>E-mail</strong></label>
                 <input type="email" name="email" id="email" placeholder="nome@email.com" required>
+                <br>
+                <label for="telefone"><strong>Telefone</strong></label>
+                <input type="text" name="telefone" id="telefone" placeholder="(81) 9999-9999" required>
+                <br>
+                <br>
+                <label for="mensagem"><strong>Mensagem:</strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia" placeholder="Escreva uma mensagem"></textarea>
+                </fieldset>
             </form>
             <button type="submit" class="botao" onclick="clicou()">Enviar</button>
         </div> 
         
         <div class="contacts">
-            <h3><strong>Redes Sociais</strong></h3>
+            <h3><strong>Dados para contato</strong></h3>
+            <br>
+            <p>Telefone:(81) 9999-9999</p>
+            <br>
+            <p>Avenida dos Rios, 9999 <br> Bairro Florido, Cidade do Nunca</p>
+            <br>
+            <p>email@email.com</p>
+            <br>
+            <h3>Redes Sociais</h3>
+            <br>
             <a href="http://facebook.com" target="_blank"><img src="images/Facebook-PNG.png" alt="icone facebook" width="60" height="60"></a>
             <a href="http://instragram.com" target="_black"><img src="images/instagram.png" alt="icone instagram" width="60" height="60"></a>
         </div>

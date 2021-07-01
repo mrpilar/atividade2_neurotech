@@ -1,5 +1,6 @@
 * {
-    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -25,16 +26,22 @@ body {
 }
 
 .image1 {
-   display: inline; 
+   display: inline-block;
+   margin: 0;
+   padding: 0;
 }
 
 .image2 {
-    display: inline;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
     
 }
 
 .image3 {
-    display: inline;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -44,17 +51,26 @@ body {
   padding: 0;
 }
 
+fieldset {
+    border: 0;
+}
+
 .form {
+    display: block;
     margin: 20px;
     padding: 0.2em;
     border: 1 px solid #59429d;
     box-shadow: 2px 2px 2px rgba (0,0,0,0.2);
-    display: block;
+    border-radius: 5px;
+    justify-content: center;
 }
 
 
 .contacts {
+    display:inine-block;
     margin: 20px;
+    justify-content: center;
+    
 }
 
 .botao {
@@ -72,4 +88,15 @@ body {
     background: #ccbbff;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     box-shadow: none;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+
+label {
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
 }
