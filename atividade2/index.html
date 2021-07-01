@@ -31,7 +31,7 @@
         <div class="form">
             <h3><strong>Entre em contato conosco</strong></h3>
             <br>
-            <form>
+            <form action="" id="formulario" method="POST" name="formulario">
                 <fieldset>
                 <label class="campo" for="nome"><strong>Nome</strong></label>
                 <input class="nome" type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
@@ -44,14 +44,14 @@
                 <br>
                 <br>
                 <label for="mensagem"><strong>Mensagem:</strong></label>
-                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia" placeholder="Escreva uma mensagem"></textarea>
+                <textarea rows="6" style="width: 26em" id="mensagem" name="mensagem" placeholder="Escreva uma mensagem"></textarea>
                 </fieldset>
             </form>
-            <button type="submit" class="botao" onclick="clicou()">Enviar</button>
+            <button type="submit" class="botao" onclick="validar()">Enviar</button>
         </div> 
         
         <div class="contacts">
-            <h3><strong>Dados para contato</strong></h3>
+            <h3><strong>Dados</strong></h3>
             <br>
             <p>Telefone:(81) 9999-9999</p>
             <br>
